@@ -12,10 +12,10 @@ You do not need to know anything about computers to use this. Just follow the st
 
 ## What's in here
 
-There are two files. You only need one of them, depending on what you use.
+There are two files. Which one you use depends on your app.
 
-- `family-day-out-planner.skill` → use this one for **Claude**.
-- `SKILL.md` → use this one for **ChatGPT** (it is just the instructions as plain text).
+- `family-day-out-planner.skill` → the ready-to-install skill, for **Claude**, and for **ChatGPT** on a paid work plan.
+- `SKILL.md` → the plain-text instructions, for pasting into a ChatGPT Project or a free chat.
 
 ---
 
@@ -55,19 +55,28 @@ Claude takes it from there.
 
 ### Option B: ChatGPT
 
-ChatGPT does not have a "save" button for this, so you paste the instructions in instead. Two easy ways:
+ChatGPT now has skills too, but only on a **paid work plan** (Business, Enterprise, Edu, and similar), and only on the **website**, not the app yet. Pick the way that matches what you have.
 
-**The quick way (every time):**
+**If you have the Skills button (paid work plan):**
 
-1. Open the file `SKILL.md` (right-click it and open with TextEdit, Notepad, or any text app). Select everything and copy it.
-2. Start a new ChatGPT chat.
-3. Paste the instructions, press enter, then on the next line type your request, for example: *"Plan a day out near Utrecht this Saturday for a 4 and a 7 year old."*
+1. Open ChatGPT on the web (not the app).
+2. Click your profile icon (top right), then **Skills**.
+3. Click **New skill**, then **Upload from your computer**.
+4. Choose the `family-day-out-planner.skill` file you downloaded.
+5. ChatGPT checks it. It's usually ready right away.
 
-**The set-and-forget way (paid ChatGPT only):**
+Then just ask, for example: *"Something to do with the kids Saturday near Amsterdam, ages 3 and 9."*
 
-1. In ChatGPT, make a new **Project** (or a Custom GPT).
-2. Paste the contents of `SKILL.md` into the instructions box.
-3. From now on, just chat in that Project and ask your question. You don't paste anything again.
+> If ChatGPT won't accept the file, rename it so it ends in `.zip` instead of `.skill` (it's the same file) and upload again. On Enterprise or Edu, an admin may need to switch Skills on first.
+
+**No Skills button? Use a Project instead (any paid plan):**
+
+1. Open the file `SKILL.md` (right-click it, open with TextEdit, Notepad, or any text app). Select everything and copy it.
+2. In ChatGPT, make a new **Project**.
+3. Paste the text into the project instructions box.
+4. From now on, just chat inside that Project and ask. You only paste once.
+
+**On free ChatGPT?** You can still use it. Start a new chat, paste the contents of `SKILL.md`, press enter, then type your request on the next line.
 
 ---
 
